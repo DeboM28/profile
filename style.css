@@ -1,0 +1,76 @@
+body {
+  background-color:#3397FF;
+  text-align:center;
+  padding:50px;
+  font-family:comic sans ms;
+  color: #001898
+    }
+
+p {
+  color:#FFEB5F;
+}
+
+h1, h2, h3 {
+  color:#A5E2FF;
+  font-family:arial;
+}
+
+li {
+  display:online
+}
+
+ul {
+  padding:0
+}
+
+a{
+  text-decoration:none;
+  color:#FFEB5F;
+  font-size:18px;
+  font-weight:bold;
+  transition:0.3s ease
+}
+
+a:hover {
+  color:#EE9322
+}
+
+#profile-pic {
+  height:200px;
+  border-radius:50%
+}
+
+.Card {
+  background-color:#0F2C59;
+  margin:25px auto;
+  padding:1px;
+  border-radius:15%;
+  border:1px solid #EAEAEA
+}
+
+img {
+  border-radius: 50px;
+  width: 300px;
+  height: 300px;
+}
+
+@media (max-width: 960px) {
+  /* Pour un écran < 960px, cette classe CSS s'applique */
+  .container {
+    width: 700px;
+  }
+}
+
+@media (max-width: 720px) {
+  /* Pour un écran < 720px, cette classe CSS s'applique */
+  .container {
+    width: 500px;
+  }
+}
+
+@media (max-width: 540px) {
+  /* Pour un écran < 540px, cette classe CSS s'applique */
+  .container {
+    width: 300px;
+  }
+}
